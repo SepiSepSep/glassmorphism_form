@@ -1,0 +1,33 @@
+font family: Poppins
+Font size: 32px, 16px, 14px, 18px
+--------------------------------------
+		Body
+
+background color: #080710
+--------------------------------------
+		Form
+
+width: 400px
+height: 500px
+padding: top 50px, 35px
+redius: 10px
+background color: rgba(225, 225, 225, 0.33)
+border: 2px
+--------------------------------------
+		Inputs
+
+background color: rgba(225, 225, 225, 0.07)
+height: 50px
+X padding: 10px
+font weight: 300
+--------------------------------------
+		Button
+
+button Y padding: 15px
+--------------------------------------
+		Circle
+
+width: 200px
+height: 200px
+--------------------------------------
+Glass morphism

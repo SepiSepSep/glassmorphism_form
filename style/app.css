@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Poppins;
+    src: 
+    url("../fonts/Poppins-Regular.ttf") format("truetype");
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+
+html{
+    box-sizing: border-box;
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+
+body{
+    font-family: "Poppins";
+    margin: 0;
+    background-color: #080710;
+}
+
+
+.container{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    inset: 0;
+}
+
+
+.login-form{
+    margin-top: 0;
+    width: 400px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: rgba(225, 225, 225, 0.13);
+    border: 2px solid rgba(225, 225, 225, 0.13);
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 3;
+    position: relative;
+    backdrop-filter: blur(10px);
+}
+
+
+.input-box{
+    background-color: rgba(225, 225, 225, 0.07);
+    color: aliceblue;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    border: 0 rgba(225, 225, 225, 0.07);
+    border-radius: 10px;
+}
+
+
+.title{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.labels{
+    display: block;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+
+#login-button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: aliceblue;
+    color: #080710;
+    font-size: 18px;
+    font-family: Poppins;
+    border-radius: 10px;
+}
+
+
+.circle{
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+}
+
+
+#circle1{
+
+    background-image: linear-gradient(to bottom right, #29B6F6, #1976D2);
+    margin-left: -100px;
+    margin-bottom: -100px;
+
+}
+
+
+#circle2{
+    background-image: linear-gradient(to bottom right, #FFCA28,#F57C00 );
+    margin-left: 300px;
+    margin-top: -125px;
+
+}
